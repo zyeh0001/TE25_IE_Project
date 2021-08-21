@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from "react-router-dom";
+import Todo from "./components/Todo";
+// import Header from "./components/header";
+// import Footer from "./components/footer";
+import HomePage from "./pages/Home";
+import AboutUsPage from "./pages/AboutUs";
+import DisclaimerPage from "./pages/Disclaimer";
+import HealthyTipsPage from "./pages/HealthyTips";
+import SelfCheckPage from "./pages/SelfCheck";
+import SymptomPage from "./pages/Symptom";
+import MedicalSupportPage from "./pages/MedicalSupport";
+import MainNavigation from "./components/MainNavigation";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MainNavigation />
+      <Switch>
+        <Route path="/" exact={true}>
+          <HomePage />
+        </Route>
+        <Route path="/about-us">
+          <AboutUsPage />
+        </Route>
+        <Route path="/disclaimer">
+          <DisclaimerPage />
+        </Route>
+        <Route path="/healthy-tips">
+          <HealthyTipsPage />
+        </Route>
+        <Route path="/self-check">
+          <SelfCheckPage />
+        </Route>
+        <Route path="/symptom">
+          <SymptomPage />
+        </Route>
+        <Route path="/medical-support">
+          <MedicalSupportPage />
+        </Route>
+      </Switch>
+      <Footer />
     </div>
   );
 }
