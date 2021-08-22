@@ -1,5 +1,5 @@
 import { Route, Switch } from "react-router-dom";
-import Todo from "./components/Todo";
+// import Todo from "./components/Todo";
 // import Header from "./components/header";
 // import Footer from "./components/footer";
 import HomePage from "./pages/Home";
