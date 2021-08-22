@@ -17,25 +17,25 @@ function App() {
     <div>
       <MainNavigation />
       <Switch>
-        <Route path="/" exact={true}>
+        <Route path="http://www.skindicator.ga/" exact={true}>
           <HomePage />
         </Route>
-        <Route path="/about-us">
+        <Route path="http://www.skindicator.ga/about-us">
           <AboutUsPage />
         </Route>
-        <Route path="/disclaimer">
+        <Route path="http://www.skindicator.ga/disclaimer">
           <DisclaimerPage />
         </Route>
-        <Route path="/healthy-tips">
+        <Route path="http://www.skindicator.ga/healthy-tips">
           <HealthyTipsPage />
         </Route>
-        <Route path="/self-check">
+        <Route path="http://www.skindicator.ga/self-check">
           <SelfCheckPage />
         </Route>
-        <Route path="/symptom">
+        <Route path="http://www.skindicator.ga/symptom">
           <SymptomPage />
         </Route>
-        <Route path="/medical-support">
+        <Route path="http://www.skindicator.ga/medical-support">
           <MedicalSupportPage />
         </Route>
       </Switch>
