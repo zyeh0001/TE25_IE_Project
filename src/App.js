@@ -9,8 +9,8 @@ import HealthyTipsPage from "./pages/HealthyTips";
 import SelfCheckPage from "./pages/SelfCheck";
 import SymptomPage from "./pages/Symptom";
 import MedicalSupportPage from "./pages/MedicalSupport";
-import MainNavigation from "./components/MainNavigation";
-import Footer from "./components/footer";
+import MainNavigation from "./components/common/MainNavigation";
+import Footer from "./components/common/footer";
 
 function App() {
   return (

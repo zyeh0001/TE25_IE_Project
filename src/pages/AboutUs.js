@@ -1,4 +1,4 @@
 function AboutPage() {
-  return <div>About page112312345566778</div>;
+  return <div>About page</div>;
 }
 export default AboutPage;
