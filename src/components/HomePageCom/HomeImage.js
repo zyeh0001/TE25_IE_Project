@@ -6,9 +6,11 @@ function HomeImage() {
         <section id="hero" className="container">
           <header>
             <h2>
-              Telephasic is a responsive
+              {/* Do you have Spot getting under your skin? */}
+              Are you having trouble with your moles ?
               <br />
-              site template by <Link to="/about-us">HTML5 UP</Link>
+              {/* <br />
+              It can be fatal! */}
             </h2>
           </header>
           <p>
