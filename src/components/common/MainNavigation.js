@@ -7,7 +7,7 @@ function MainNavigation() {
         <div id="header" className="container"></div>
 
         <h1 id="logo">
-          <Link to="/">Skindicator</Link>
+          <Link to="/">Skindicator-X</Link>
         </h1>
 
         <nav id="nav">
