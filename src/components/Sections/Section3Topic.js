@@ -1,12 +1,9 @@
-function Section3Topic() {
+function Section3Topic(props) {
   return (
     <div className="container">
       <header className="major">
-        <h2>Why skin cancer so serious?</h2>
-        <p>
-          Each year, skin cancer accounts for nearly 80% of all new cancer cases
-          diagnosed in Australia. ...
-        </p>
+        <h2>{props.title}</h2>
+        <p>{props.text}</p>
       </header>
     </div>
   );

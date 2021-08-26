@@ -1,7 +1,9 @@
-function MapVisual() {
+// import GeoChart from "./GeoChart";
+
+function MapVisual(props) {
   return (
     <div>
-      <div class="container" id="main">
+      <div className="container" id="main">
         <article id="content">
           <header>
             <h2>No Sidebar</h2>
@@ -10,9 +12,11 @@ function MapVisual() {
               dolor neque semper.
             </p>
           </header>
-          <a href="/#" className="image featured">
-            <img src="images/pic06.jpg" alt="" />
-          </a>
+          <div>
+            <svg width="900" height="600">
+              {/* <GeoChart width={900} height={600} /> */}
+            </svg>
+          </div>
           <p>
             Every year, GPs provide over a million consultations to skin cancer
             patients. The rate of skin cancer in Australia is among the highest
