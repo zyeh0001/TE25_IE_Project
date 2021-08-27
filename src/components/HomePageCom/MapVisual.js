@@ -13,9 +13,16 @@ function MapVisual(props) {
             </p>
           </header>
           <div>
-            <svg width="900" height="600">
-              {/* <GeoChart width={900} height={600} /> */}
-            </svg>
+            <img
+              src="images/map_visual.png"
+              alt=""
+              width="900"
+              height="600"
+              className="aln-center"
+            />
+            {/* <svg width="900" height="600">
+              <GeoChart width={900} height={600} />
+            </svg> */}
           </div>
           <p>
             Every year, GPs provide over a million consultations to skin cancer

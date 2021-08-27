@@ -15,22 +15,22 @@ function AboutPage() {
         <Section5
           name="Sachi"
           intro="Master of Data science"
-          image="images/charles.png"
+          image="images/sachi.jpg"
         />
         <Section5
           name="Yixang"
           intro="Master of BIS"
-          image="images/charles.png"
+          image="images/yixiang.jpg"
         />
         <Section5
           name="Ziwei"
           intro="Master of Data science"
-          image="images/charles.png"
+          image="images/ziwei.jpg"
         />
         <Section5
           name="Peihao"
           intro="Master of IT"
-          image="images/charles.png"
+          image="images/peihao.jpg"
         />
       </div>
     </div>

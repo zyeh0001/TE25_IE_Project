@@ -5,7 +5,14 @@ function Section5(props) {
       <section className="col-md-2">
         <div className="image-wrapper first">
           <Link to="/self-check" className="image">
-            <img src={props.image} alt="" />
+            <img
+              src={props.image}
+              alt=""
+              style={{
+                width: "200px",
+                height: "280px",
+              }}
+            />
             {/* images/charles.png */}
           </Link>
         </div>

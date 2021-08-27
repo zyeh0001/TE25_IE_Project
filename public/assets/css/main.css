@@ -2458,9 +2458,10 @@ button:hover,
 
 #promo h2 {
   color: #fff;
+
   display: inline-block;
   margin-right: 1em;
-  font-size: 1.75em;
+  font-size: 3em;
 }
 
 #promo .button {
@@ -2471,7 +2472,7 @@ button:hover,
 }
 
 #promo .button:hover {
-  border-color: rgba(255, 255, 255, 0.75);
+  border-color: rgba(110, 14, 14, 0.75);
   background-color: rgba(255, 255, 255, 0.15);
   color: #fff;
 }

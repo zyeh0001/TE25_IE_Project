@@ -39,6 +39,7 @@ function App() {
           <MedicalSupportPage />
         </Route>
       </Switch>
+      <div id="react-mount"></div>
       <Footer />
     </div>
   );

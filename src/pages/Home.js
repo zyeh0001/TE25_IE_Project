@@ -11,39 +11,31 @@ function HomePage() {
       <Banner />
       <Section3Topic
         title="Why skin cancer so serious???"
-        text="Each year, skin cancer accounts for nearly 80% of all new cancer cases
-        diagnosed in Australia. ..."
+        text={[
+          "Australia has one of the highest rates of skin cancer in the world",
+          <br></br>,
+          "Each year, nearly 80% of all cancer cases in Australia are skin cancer cases.",
+        ]}
       />
       <div className="row aln-center feature">
         <Section3
           title="Skin Health"
-          text="Skin health is ...."
-          image="images/pic03.jpg"
+          text="Do you know the condition of your skin? Let me tell you sonething..."
+          image="images/skinHealth.jpg"
+          link="/symptom"
+        />
+
+        <Section3
+          title="Self Check"
+          text="You can check your skin at any time with just a few easy steps..."
+          image="images/selfCheck.jpg"
+          link="/self-check"
         />
         <Section3
           title="Medical support"
-          text="Medical support is ...."
-          image="images/pic03.jpg"
-        />
-        <Section3
-          title="Symptom"
-          text="Symptom is ...."
-          image="images/pic03.jpg"
-        />
-        <Section3
-          title="Healthy Tips"
-          text="Healthy Tips is ...."
-          image="images/pic03.jpg"
-        />
-        <Section3
-          title="Self Check"
-          text="Self Check is ...."
-          image="images/pic03.jpg"
-        />
-        <Section3
-          title="Our Story"
-          text="Our Story is ...."
-          image="images/pic03.jpg"
+          text="From here, you can find out the nearest position of skin health clinic around you..."
+          image="images/support.jpg"
+          link="/medical-support"
         />
       </div>
     </div>
