@@ -6,10 +6,11 @@ function MapVisual(props) {
       <div className="container" id="main">
         <article id="content">
           <header>
-            <h2>No Sidebar</h2>
+            <h2>So Many Skin cancer cases</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur et sed adipiscing elit
-              dolor neque semper.
+              Demographical representation of Skin cancer all over Australia.
+              From the below map we can visualize that Queensland has the
+              highest skin cancer rate in Australia.
             </p>
           </header>
           <div>

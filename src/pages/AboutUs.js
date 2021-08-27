@@ -5,7 +5,10 @@ function AboutPage() {
   return (
     <div>
       <Banner bannerTopic="Our Story" />
-      <Section3Topic title="Our Team" text="We are five4fighting..." />
+      <Section3Topic
+        title="Our Team"
+        text="Our team is committed to reminding Australians to take good care of their skin. We hope skin cancer will no longer be an Australian label！！"
+      />
       <div className="row aln-center">
         <Section5
           name="Charles"
