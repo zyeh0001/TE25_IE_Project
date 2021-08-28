@@ -1,43 +1,36 @@
-// import GeoChart from "./GeoChart";
-
+// import Map from "./Map";
+import TableauVisual from "./TableauVisual";
 function MapVisual(props) {
   return (
     <div>
-      <div className="container" id="main">
+      <div className="container aln-center" id="main">
         <article id="content">
           <header>
             <h2>So Many Skin cancer cases</h2>
             <p>
-              Demographical representation of Skin cancer all over Australia.
-              From the below map we can visualize that Queensland has the
-              highest skin cancer rate in Australia.
+              The incidence of skin cancer in Australia has always been the
+              highest in the world, which not only brings great troubles to the
+              lives of Australian residents, but also makes Australia labeled
+              with skin cancer by other countries
             </p>
           </header>
-          <div>
-            <img
-              src="images/map_visual.png"
-              alt=""
-              width="900"
-              height="600"
-              className="aln-center"
-            />
-            {/* <svg width="900" height="600">
-              <GeoChart width={900} height={600} />
-            </svg> */}
-          </div>
+        </article>
+        <div className="container">
+          <TableauVisual />
+        </div>
+        <article id="content">
           <p>
-            Every year, GPs provide over a million consultations to skin cancer
-            patients. The rate of skin cancer in Australia is among the highest
-            in the world. ...
+            As can be easily seen from the graph above, Queensland has the
+            highest incidence of skin cancer in Australia. The bright colors
+            represent not the prosperity of the city, but the call of death.
           </p>
           <p>
-            Some Australians are adamant about ignoring the advice and staying
-            completely in the sun to keep their tan. This is one of the reasons
-            Australia's skin cancer rate is so high. ...
+            We need to raise the awareness of australians to protect their skin.
+            To protect them from skin cancer.
           </p>
           <p>
-            Each year, skin cancer accounts for nearly 80% of all new cancer
-            cases diagnosed in Australia.
+            So what exactly should we do? You can follow our guide on how to
+            protect your skin.
           </p>
         </article>
       </div>

@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 function Section5(props) {
   return (
     <div>
-      <section className="col-md-2">
-        <div className="image-wrapper first">
+      <section className="col-4 col-12-narrower">
+        <div className="image-wrapper">
           <Link to="/self-check" className="image">
             <img
               src={props.image}
@@ -13,13 +13,18 @@ function Section5(props) {
                 height: "280px",
               }}
             />
-            {/* images/charles.png */}
           </Link>
         </div>
         <header>
           <h3>{props.name}</h3>
         </header>
-        <p>{props.intro}</p>
+        <p
+          style={{
+            width: "200px",
+          }}
+        >
+          {props.intro}
+        </p>
       </section>
     </div>
   );

@@ -3,7 +3,7 @@ function Section3(props) {
   return (
     <div>
       <section className="col-4 col-12-narrower feature">
-        <div className="image-wrapper first">
+        <div className="image-wrapper">
           <Link to={props.link} className="image featured">
             <img
               src={props.image}
@@ -24,7 +24,13 @@ function Section3(props) {
           <h3>
             <Link to="/#">{props.title}</Link>
           </h3>
-          <p>{props.text}</p>
+          <p
+            style={{
+              width: "350px",
+            }}
+          >
+            {props.text}
+          </p>
         </div>
       </section>
     </div>

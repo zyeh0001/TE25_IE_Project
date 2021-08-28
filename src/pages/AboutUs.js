@@ -7,7 +7,7 @@ function AboutPage() {
       <Banner bannerTopic="Our Story" />
       <Section3Topic
         title="Our Team"
-        text="Our team is committed to reminding Australians to take good care of their skin. We hope skin cancer will no longer be an Australian label！！"
+        text="Our team is committed to reminding Australians to take good care of their skin. We hope skin cancer will no longer be an Australian label！"
       />
       <div className="row aln-center">
         <Section5
@@ -17,17 +17,24 @@ function AboutPage() {
         />
         <Section5
           name="Sachi"
-          intro="Master of Data science"
+          intro="Professional in data science with extensive experience in business intelligence, 
+          data visualization, and statistical modeling. Through data exploration, visualization,
+          and analysis, I want to become a Data Analyst who can solve business challenges and deliver desired outcomes."
           image="images/sachi.jpg"
         />
         <Section5
-          name="Yixang"
-          intro="Master of BIS"
+          name="Yixiang"
+          intro="Focusing on Business information system. 
+          I’m interested in analyzing reports and do well in report writing.
+           Very responsible and will never let you down!"
           image="images/yixiang.jpg"
         />
         <Section5
           name="Ziwei"
-          intro="Master of Data science"
+          intro="Ziwei is a data scientist who has experience 
+          working on several data analytical projects.
+          He is passionate about decoding values behind data by
+           applying his knowledge of machine learning."
           image="images/ziwei.jpg"
         />
         <Section5

@@ -13,7 +13,7 @@ function HomeImage() {
           <p>
             Skin care is never too late
             <br />
-            Lets try our free skin cancer detection tool
+            Let's try our free skin cancer detection tool
           </p>
           <ul className="actions">
             <li>

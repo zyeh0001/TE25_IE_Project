@@ -1,21 +1,19 @@
 import HomeImage from "../components/HomePageCom/HomeImage";
-import Banner from "../components/HomePageCom/Banner";
+// import Banner from "../components/HomePageCom/Banner";
 import Section3 from "../components/Sections/Section3";
 import Section3Topic from "../components/Sections/Section3Topic";
 import MapVisual from "../components/HomePageCom/MapVisual";
+import StatBanner from "../components/HomePageCom/StatBanner";
 function HomePage() {
   return (
     <div>
       <HomeImage />
       <MapVisual />
-      <Banner />
+      {/* <Banner image="images/banner.jpeg" /> */}
+      <StatBanner bannerTopic="Why skin cancer so serious?" />
       <Section3Topic
         title="Why skin cancer so serious???"
-        text={[
-          "Australia has one of the highest rates of skin cancer in the world",
-          <br></br>,
-          "Each year, nearly 80% of all cancer cases in Australia are skin cancer cases.",
-        ]}
+        text="Australia has one of the highest rates of skin cancer in the world. Each year, nearly 80% of all cancer cases in Australia are skin cancer cases."
       />
       <div className="row aln-center feature">
         <Section3
