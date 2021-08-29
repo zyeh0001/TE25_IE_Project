@@ -1,20 +1,26 @@
 import HomeImage from "../components/HomePageCom/HomeImage";
-// import Banner from "../components/HomePageCom/Banner";
 import Section3 from "../components/Sections/Section3";
-import Section3Topic from "../components/Sections/Section3Topic";
+import TableauVisual from "../components/HomePageCom/TableauVisual";
+// import Section3Topic from "../components/Sections/Section3Topic";
 import MapVisual from "../components/HomePageCom/MapVisual";
 import StatBanner from "../components/HomePageCom/StatBanner";
+import GraphDesc from "../components/Sections/GraphDesc";
+import Banner from "../components/HomePageCom/Banner";
 function HomePage() {
   return (
     <div>
       <HomeImage />
+      <GraphDesc title="" text="" />
       <MapVisual />
       {/* <Banner image="images/banner.jpeg" /> */}
       <StatBanner bannerTopic="Why skin cancer so serious?" />
-      <Section3Topic
-        title="Why skin cancer so serious???"
-        text="Australia has one of the highest rates of skin cancer in the world. Each year, nearly 80% of all cancer cases in Australia are skin cancer cases."
-      />
+      <div className="container">
+        <TableauVisual
+          link="https://public.tableau.com/views/Sachida2/Dashboard2"
+          height="50vh"
+        />
+      </div>
+      <Banner bannerTopic="Time to take actions!" />
       <div className="row aln-center feature">
         <Section3
           title="Skin Health"

@@ -1,23 +1,22 @@
 import React, { useRef, useEffect } from "react";
 const { tableau } = window;
 
-function TableauVisual() {
-  const url = "https://public.tableau.com/views/Sachida/Dashboard1";
+function TableauVisual(props) {
+  const url = props.link;
   const ref = useRef(null);
-  //   const options = {
-  //     device: "desktop",
+  // const options = {
+
   //   };
-  console.log(ref);
+  // console.log(ref);
 
   const initViz = () => {
     new tableau.Viz(ref.current, url, {
-      device: "desktop",
       width: "100%",
-      height: "120vh",
+      height: props.height,
     });
   };
 
-  useEffect(initViz, []);
+  useEffect(initViz);
 
   return <div ref={ref}></div>;
 }
