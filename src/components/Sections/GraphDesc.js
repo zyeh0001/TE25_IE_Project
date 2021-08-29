@@ -8,7 +8,9 @@ function GraphDesc(props) {
         <header>
           <h2 className="feature">{props.title}</h2>
         </header>
-        <p className="sub-feature">{props.text3}</p>
+
+        <p>{props.text3}</p>
+        <p className="sub-feature">{props.text4}</p>
         <br></br>
       </article>
     </div>

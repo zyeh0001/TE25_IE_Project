@@ -27,7 +27,7 @@ function HomePage() {
         <GraphDesc
           title=" Each year, nearly 80% of all cancer cases in Australia are skin cancer
         cases."
-          text3="The problem is that some Australians don't realise how serious skin cancer is and
+          text4="The problem is that some Australians don't realise how serious skin cancer is and
         how important regular skin check-ups can be."
         />
 
