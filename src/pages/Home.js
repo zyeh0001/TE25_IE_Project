@@ -18,7 +18,7 @@ function HomePage() {
       <div className="row aln-center feature">
         <Section3
           title="Skin Health"
-          text="Do you know the condition of your skin? Let me tell you sonething..."
+          text="Do you know the condition of your skin? Let me tell you something..."
           image="images/skinHealth.jpg"
           link="/symptom"
         />
