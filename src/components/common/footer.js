@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div>
       <div id="footer-wrapper">
-        <div id="footer" className="container"></div>
+        {/* <div id="footer" className="container"></div> */}
         <div id="copyright" className="container">
           <ul className="menu">
             <li>

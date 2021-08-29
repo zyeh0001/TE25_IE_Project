@@ -2,7 +2,7 @@ function Banner(props) {
   return (
     <div>
       <div id="promo-wrapper">
-        <section id="hero">
+        <section className="hero-black">
           <h2>{props.bannerTopic}</h2>
         </section>
       </div>

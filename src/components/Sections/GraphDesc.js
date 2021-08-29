@@ -4,10 +4,12 @@ function GraphDesc(props) {
   return (
     <div>
       <article id="content">
+        <p>{props.text}</p>
         <header>
-          <h2>{props.title}</h2>
-          <p>{props.text}</p>
+          <h2 className="feature">{props.title}</h2>
         </header>
+        <p className="sub-feature">{props.text3}</p>
+        <br></br>
       </article>
     </div>
   );

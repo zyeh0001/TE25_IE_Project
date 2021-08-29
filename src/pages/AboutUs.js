@@ -15,7 +15,8 @@ function AboutPage() {
       <div className="row aln-center">
         <Section5
           name="Charles"
-          intro="Master of IT"
+          intro="Charles is the web developer in our team, with over 6 years’ experiences in operations, web development, project management, 
+          data analysis skills. Ability to adapt to high pressure environment and maintain high productivity. "
           image="images/charles.png"
         />
         <Section5
