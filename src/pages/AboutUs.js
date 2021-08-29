@@ -1,13 +1,16 @@
 import Section3Topic from "../components/Sections/Section3Topic";
 import Section5 from "../components/Sections/Section5";
-import Banner from "../components/HomePageCom/Banner";
+//import Banner from "../components/HomePageCom/Banner";
 function AboutPage() {
   return (
     <div>
-      <Banner bannerTopic="Our Story" />
+      <Section3Topic
+        title="Our Story"
+        text="Our team is committed to reminding Australians to take good care of their skin. We hope skin cancer will no longer be an Australian label and our project can contribute to it."
+      />
       <Section3Topic
         title="Our Team"
-        text="Our team is committed to reminding Australians to take good care of their skin. We hope skin cancer will no longer be an Australian label！"
+        text="Our team members are all studying at Monash University, and are responsible for the development of different components according to their areas of expertise."
       />
       <div className="row aln-center">
         <Section5
@@ -39,7 +42,7 @@ function AboutPage() {
         />
         <Section5
           name="Peihao"
-          intro="Master of IT"
+          intro="Responsible for webpage design and implementation. Study in master of IT. Skill with front-end development"
           image="images/peihao.jpg"
         />
       </div>
