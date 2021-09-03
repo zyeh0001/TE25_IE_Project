@@ -22,7 +22,7 @@ function Section3(props) {
           }}
         >
           <h3>
-            <Link to="/#">{props.title}</Link>
+            <Link to={props.link}>{props.title}</Link>
           </h3>
           <p
             style={{

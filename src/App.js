@@ -2,6 +2,7 @@ import { Route, Switch } from "react-router-dom";
 // import Todo from "./components/Todo";
 // import Header from "./components/header";
 // import Footer from "./components/footer";
+
 import HomePage from "./pages/Home";
 import AboutUsPage from "./pages/AboutUs";
 import DisclaimerPage from "./pages/Disclaimer";
@@ -11,7 +12,9 @@ import SymptomPage from "./pages/Symptom";
 import MedicalSupportPage from "./pages/MedicalSupport";
 import MainNavigation from "./components/common/MainNavigation";
 import Footer from "./components/common/footer";
-
+import Amplify from "aws-amplify";
+import config from "./aws-exports";
+Amplify.configure(config);
 function App() {
   return (
     <div>
