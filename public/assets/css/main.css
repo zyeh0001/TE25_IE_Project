@@ -311,6 +311,16 @@ br.clear {
   text-align: center;
   margin-bottom: 1em;
 }
+
+.featureP {
+  font-weight:bold;
+  font-size: 1.em;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+
 .sub-feature {
   font-size: 1.25em;
   text-align: center;
@@ -359,6 +369,12 @@ header.major {
 .container {
   margin: 0 auto;
   max-width: 100%;
+  width: 1200px;
+}
+
+.containerP {
+  margin: 0 auto;
+  max-width: 80%;
   width: 1200px;
 }
 
@@ -2180,6 +2196,7 @@ button:hover,
 
 .image-wrapper {
   position: relative;
+  max-height: 40%;
 }
 
 .image-wrapper .image {
@@ -2225,6 +2242,7 @@ button:hover,
   /* padding-top: 15%;
   padding-bottom: 15%; */
 }
+
 
 .homepage #header-wrapper {
   padding: 10em 0 6em 0;
@@ -2356,6 +2374,12 @@ button:hover,
 
 #nav > ul > li.break {
   margin-left: 20em;
+}
+
+#nav > ul > li.current > a >{
+  border-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
 }
 
 .dropotron {
@@ -2966,6 +2990,12 @@ button:hover,
     top: 0;
     width: 100%;
     z-index: 10001;
+  }
+
+  #navButton:focus{
+    border-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
   }
 
   #navButton .toggle {
