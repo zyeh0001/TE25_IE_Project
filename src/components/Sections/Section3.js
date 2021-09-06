@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 function Section3(props) {
   return (
-    <div>
-      <section className="col-4 col-12-narrower feature">
+    <div className="col-3  feature">
+      <section>
         <div className="image-wrapper">
           <Link to={props.link} className="image featured">
             <img

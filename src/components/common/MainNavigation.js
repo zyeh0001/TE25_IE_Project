@@ -4,8 +4,7 @@ function MainNavigation() {
   return (
     <div>
       <div id="header-wrapper">
-        <div id="header" className="container"></div>
-
+        {/* <div id="header" className="container"></div> */}
         <h1 id="logo">
           <Link to="/">Skindicator-X</Link>
         </h1>

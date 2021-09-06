@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 function Section5(props) {
   return (
-    <div>
-      <section className="col-4 col-12-narrower">
+    <div className="col-2">
+      <section>
         <div className="image-wrapper">
           <Link to="/self-check" className="image">
             <img

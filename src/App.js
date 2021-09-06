@@ -12,9 +12,7 @@ import SymptomPage from "./pages/Symptom";
 import MedicalSupportPage from "./pages/MedicalSupport";
 import MainNavigation from "./components/common/MainNavigation";
 import Footer from "./components/common/footer";
-import Amplify from "aws-amplify";
-import config from "./aws-exports";
-Amplify.configure(config);
+// import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>

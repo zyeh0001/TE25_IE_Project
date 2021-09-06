@@ -42,7 +42,7 @@ As of 2020, the chance of death from skin cancer has decreased, with 1 out of 16
         />
       </div>
       <Banner bannerTopic="Time to take actions!" />
-      <div className="row aln-center feature">
+      <div className="row aln-center">
         <Section3
           title="Skin Health"
           text="Do you know the condition of your skin? We can give you descriptions of each symptoms  and additional healthy tips."
